@@ -11,7 +11,8 @@ public class HashS {
 		set.add("Veena");
 		set.add("Nihal");
 		
-		set.stream().forEach(x->System.out.println(x));
-	}
+		for(String s: set) {
+			System.out.println(s);
+		}	}
 
 }

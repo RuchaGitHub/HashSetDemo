@@ -7,9 +7,8 @@ public class LinkedListDemo {
 		LinkedList<String> list = new LinkedList<>();
 		list.add("123");
 		list.add("245");
-		for(String s: list) {
-			System.out.println(s);
-		}
+		
+		list.stream().forEach(x->System.out.println(x));
 	}
 
 }
